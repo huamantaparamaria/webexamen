@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Contacto</h1>
+    </header>
+    <main>
+        <div class="Container">
+            <form action="guardar_datos.php" method="POST">
+                <div class="for-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+
+                <div class="for-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="asunto" required>
+                </div>
+
+                <div class="for-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+
+                <div class="for-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+
+                <div class="for-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

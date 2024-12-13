@@ -1,0 +1,127 @@
+/* Estilo  general */
+body {
+    font-family: Arial, sans-serif;
+    nargin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Menú */
+menu {
+list-style: none;
+padding: 0;
+text-align: center;
+background-color: #444;
+}
+
+.nemu li {
+    display: inline-block;
+}
+
+.nemu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.nemu li a:hover {
+    background-color: #007bff;
+}
+
+/* Botón */
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Table */ 
+.styled-table {
+    nargin: 20px auto;
+    border-collapse: collapse;
+    width: 90px;
+    nax-width: 1000px;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.styled-table thead tr {
+    background-color: #333;
+    color: white;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #06f7ff;
+}
+
+/* Formulario de contacto */
+.container {
+    nax-width: 500px;
+    nargin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forn-group {
+    nargin-botton: 15px;
+}
+
+.forn-group label {
+    display: block;
+    font-weight: bold;
+    nargin-botton: 5px;
+}
+
+.forn-group input, .forn-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.forn-group textarea {
+    resize: none;
+}
+
+.forn-group input:focus, . .forn-group textarea:focus {
+    background-color: #007bff;
+    outline: none;
+}
+
+/*  Estilos para el botón de enviar */
+.forn-group .btn {
+    background-color: #28a745;
+    outline: none;
+}
+
+.forn-group .btn:hover {
+    background-color: #218838;
+}
